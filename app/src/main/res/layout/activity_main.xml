@@ -4,46 +4,48 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#8BC34A"
     android:orientation="vertical"
     tools:context=".MainActivity">
 
     <TextView
-        android:layout_width="198dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:text="Conoce tu Futuro"
+        android:layout_margin="50dp"
+        android:text="Conoce tu Futuro Aquí"
         android:textColor="#2000FF"
         android:textSize="24sp"
         android:textStyle="bold|italic"
-        android:layout_margin="40dp"
 
-                />
+        />
+
     <EditText
         android:id="@+id/question"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:textSize="24sp"
-        android:hint="ESCRIBE TU MENSAJE"
-        android:inputType="textShortMessage"  />
+        android:hint="ESCRIBE TU PREGUNTA"
+        android:inputType="textShortMessage"
+        android:textSize="24sp" />
 
     <ImageView
         android:id="@+id/btn"
-        android:layout_width="205dp"
-        android:layout_height="137dp"
+        android:layout_width="280dp"
+        android:layout_height="200dp"
         android:layout_gravity="center"
         android:layout_margin="40dp"
-        android:src="@drawable/button" />
+        android:background="#8BC34A"
+        android:src="@drawable/boton2" />
 
     <TextView
-        android:id="@+id/respuestvista"
+        android:id="@+id/respuestavista"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:textSize="26sp"
-        android:textColor="#2000FF"
-        android:textStyle="bold"
+        android:layout_margin="10dp"
         android:text="..."
-        android:layout_margin="60dp"
-        />
+        android:textColor="#2000FF"
+        android:textSize="26sp"
+        android:textStyle="bold" />
 </LinearLayout>
